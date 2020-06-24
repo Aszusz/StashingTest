@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+  <output>
+    <movie fps="32"/>
+    <movie height="600"/>
+    <movie disabled="False"/>
+    <movie background="#FFFFFF"/>
+    <movie path="bin-debug/StashingTest.swf"/>
+    <movie width="800"/>
+    <movie platform="AIR"/>
+    <movie version="11"/>
+    <movie input=""/>
+  </output>
+  &lt;!-- Other classes to be compiled into your SWF --&gt;
+  <jsOutput>
+    <option path="C:\Repos\Git for Moonshine\StashingTest"/>
+  </jsOutput>
+  <classpaths>
+    <class path="src"/>
+  </classpaths>
+  <moonshineResourcePaths></moonshineResourcePaths>
+  <moonshineNativeExtensionPaths></moonshineNativeExtensionPaths>
+  <build>
+    <option accessible="False"/>
+    <option useNetwork="True"/>
+    <option allowSourcePathOverlap="False"/>
+    <option antBuildPath="build/build.xml"/>
+    <option showBindingWarnings="True"/>
+    <option warnings="True"/>
+    <option es="False"/>
+    <option verboseStackTraces="False"/>
+    <option loadConfig=""/>
+    <option linkReport=""/>
+    <option benchmark="False"/>
+    <option optimize="False"/>
+    <option staticLinkRSL="False"/>
+    <option showActionScriptWarnings="True"/>
+    <option compilerConstants=""/>
+    <option customSDK="C:\MoonshineSDKs\Flex_SDK\Flex_4.16.1_AIR_32.0"/>
+    <option locale=""/>
+    <option sourceMap="False"/>
+    <option showDeprecationWarnings="True"/>
+    <option showUnusedTypeSelectorWarnings="True"/>
+    <option additional=""/>
+    <option strict="True"/>
+    <option useResourceBundleMetadata="True"/>
+  </build>
+  <mavenBuild>
+    <option dominoNotesPlatform=""/>
+    <option mavenBuildPath="C:\Repos\Git for Moonshine\StashingTest"/>
+    <option dominoNotesProgram=""/>
+    <option settingsFilePath=""/>
+    <option commandLine=""/>
+    <actions>
+      <action action="install" actionName="Build"/>
+      <action action="clean package" actionName="Clean and package"/>
+      <action action="clean" actionName="Clean"/>
+      <action action="clean install" actionName="Clean and Build"/>
+      <action action="war:exploded" actionName="Exploded"/>
+    </actions>
+  </mavenBuild>
+  <includeLibraries></includeLibraries>
+  <libraryPaths></libraryPaths>
+  <externalLibraryPaths></externalLibraryPaths>
+  <rslPaths></rslPaths>
+  <intrinsics></intrinsics>
+  <library>
+    
+    
+  </library>
+  <compileTargets>
+    <compile path="src/StashingTest.as"/>
+  </compileTargets>
+  <hiddenPaths></hiddenPaths>
+  <preBuildCommand>null</preBuildCommand>
+  <postBuildCommand alwaysRun="False">null</postBuildCommand>
+  <trustSVNCertificate>False</trustSVNCertificate>
+  <options>
+    <option isRoyale="False"/>
+    <option isExportedToExistingSource="False"/>
+    <option isPrimeFacesVisualEditor="False"/>
+    <option testMovie="AIR"/>
+    <option visualEditorExportPath=""/>
+    <option testMovieCommand=""/>
+    <option showHiddenPaths="False"/>
+    <option defaultBuildTargets=""/>
+  </options>
+  <moonshineRunCustomization>
+    <option targetPlatform="1"/>
+    <option webBrowser="null"/>
+    <option launchMethod="Simulator"/>
+    <option deviceConnectType="USB"/>
+    <option projectType="1"/>
+    <option deviceSimulator="null"/>
+    <option urlToLaunch=""/>
+    <option customUrlToLaunch=""/>
+    <deviceSimulator>null</deviceSimulator>
+    <certAndroid>null</certAndroid>
+    <certIos>null</certIos>
+    <certIosProvisioning>null</certIosProvisioning>
+  </moonshineRunCustomization>
+</project>
